@@ -1,14 +1,3 @@
-.main {
-    padding: 20px;
-    display: flex;
-    --s: 65px;
-    /*85pxdefault*/
-    /* size  */
-    --m: -4.5px;
-    /* margin */
-    --f: calc(1.732 * var(--s) + 4 * var(--m) - 1px);
-}
-
 .container {
     font-size: 0;
     /*disable white space between inline block element */
