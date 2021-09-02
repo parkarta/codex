@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/main.css">
+    <link rel="stylesheet" type="text/css" href="assets/hex1.css">
+
+
+</head>
+
+<body>
+
+    <h2>Codex - Sweeper</h2>
+
+    <!-- Trigger/Open The Modal -->
+    <button id="myBtn">Open Game</button>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+
+                <div id="start" class="start"></div>
+                <div class="smile"></div>
+                <div class="title"></div>
+                <div class="close"></div>
+                <div class="line"></div>
+                <div class="clicks"></div>
+                <div class="clicks-left"></div>
+                <p id="cl" class="clicks-left-no">50</p>
+                <div class="sensors"></div>
+                <div class="sensors-found"></div>
+                <p id="sf" class="sensors-found-no">00</p>
+
+            </div>
+            <div class="modal-body">
+                <div class="main">
+                    <div class="container">
+                        <div id="0" onclick="hex(0);"></div>
+                        <div id="1" onclick="hex(1);"></div>
+                        <div id="2" onclick="hex(2);"></div>
+                        <div id="3" onclick="hex(3);"></div>
+                        <div id="4" onclick="hex(4);"></div>
+                        <div id="5" onclick="hex(5);"></div>
+                        <div id="6" onclick="hex(6);"></div>
+                        <div id="7" onclick="hex(7);"></div>
+                        <div id="8" onclick="hex(8);"></div>
+                        <div id="9" onclick="hex(9);"></div>
+                        <div id="10" onclick="hex(10);"></div>
+                        <div id="11" onclick="hex(11);"></div>
+                        <div id="12" onclick="hex(12);"></div>
+                        <div id="13" onclick="hex(13);"></div>
+                        <div id="14" onclick="hex(14);"></div>
+                        <div id="15" onclick="hex(15);"></div>
+                        <div id="16" onclick="hex(16);"></div>
+                        <div id="17" onclick="hex(17);"></div>
+                        <div id="18" onclick="hex(18);"></div>
+                        <div id="19" onclick="hex(19);"></div>
+                        <div id="20" onclick="hex(20);"></div>
+                        <div id="21" onclick="hex(21);"></div>
+                        <div id="22" onclick="hex(22);"></div>
+                        <div id="23" onclick="hex(23);"></div>
+                        <div id="24" onclick="hex(24);"></div>
+                        <div id="25" onclick="hex(25);"></div>
+                        <div id="26" onclick="hex(26);"></div>
+                        <div id="27" onclick="hex(27);"></div>
+                        <div id="28" onclick="hex(28);"></div>
+                        <div id="29" onclick="hex(29);"></div>
+                        <div id="30" onclick="hex(30);"></div>
+                        <div id="31" onclick="hex(31);"></div>
+                        <div id="32" onclick="hex(32);"></div>
+                        <div id="33" onclick="hex(33);"></div>
+                        <div id="34" onclick="hex(34);"></div>
+                        <div id="35" onclick="hex(35);"></div>
+                        <div id="36" onclick="hex(36);"></div>
+                        <div id="37" onclick="hex(37);"></div>
+                        <div id="38" onclick="hex(38);"></div>
+                        <div id="39" onclick="hex(39);"></div>
+                        <div id="40" onclick="hex(40);"></div>
+                        <div id="41" onclick="hex(41);"></div>
+                        <div id="42" onclick="hex(42);"></div>
+                        <div id="43" onclick="hex(43);"></div>
+                        <div id="44" onclick="hex(44);"></div>
+                        <div id="45" onclick="hex(45);"></div>
+                        <div id="46" onclick="hex(46);"></div>
+                        <div id="47" onclick="hex(47);"></div>
+                        <div id="48" onclick="hex(48);"></div>
+                        <div id="49" onclick="hex(49);"></div>
+                        <div id="50" onclick="hex(50);"></div>
+                        <div id="51" onclick="hex(51);"></div>
+                        <div id="52" onclick="hex(52);"></div>
+                        <div id="53" onclick="hex(53);"></div>
+                        <div id="54" onclick="hex(54);"></div>
+                        <div id="55" onclick="hex(55);"></div>
+                        <div id="56" onclick="hex(56);"></div>
+                        <div id="57" onclick="hex(57);"></div>
+                        <div id="58" onclick="hex(58);"></div>
+                        <div id="59" onclick="hex(59);"></div>
+                        <div id="60" onclick="hex(60);"></div>
+                        <div id="61" onclick="hex(61);"></div>
+                        <div id="62" onclick="hex(62);"></div>
+                        <div id="63" onclick="hex(63);"></div>
+                        <div id="64" onclick="hex(64);"></div>
+                        <div id="65" onclick="hex(65);"></div>
+                        <div id="66" onclick="hex(66);"></div>
+                        <div id="67" onclick="hex(67);"></div>
+                        <div id="68" onclick="hex(68);"></div>
+                        <div id="69" onclick="hex(69);"></div>
+                        <div id="70" onclick="hex(70);"></div>
+                        <div id="71" onclick="hex(71);"></div>
+                        <div id="72" onclick="hex(72);"></div>
+                        <div id="73" onclick="hex(73);"></div>
+                        <div id="74" onclick="hex(74);"></div>
+                        <div id="75" onclick="hex(75);"></div>
+                        <div id="76" onclick="hex(76);"></div>
+                        <div id="77" onclick="hex(77);"></div>
+                        <div id="78" onclick="hex(78);"></div>
+                        <div id="79" onclick="hex(79);"></div>
+                        <div id="80" onclick="hex(80);"></div>
+                        <div id="81" onclick="hex(81);"></div>
+                        <div id="82" onclick="hex(82);"></div>
+                        <div id="83" onclick="hex(83);"></div>
+                        <div id="84" onclick="hex(84);"></div>
+                        <div id="85" onclick="hex(85);"></div>
+                        <div id="86" onclick="hex(86);"></div>
+                        <div id="87" onclick="hex(87);"></div>
+                        <div id="88" onclick="hex(88);"></div>
+                        <div id="89" onclick="hex(89);"></div>
+                        <div id="90" onclick="hex(90);"></div>
+                        <div id="91" onclick="hex(91);"></div>
+                        <div id="92" onclick="hex(92);"></div>
+                        <div id="93" onclick="hex(93);"></div>
+                        <div id="94" onclick="hex(94);"></div>
+                        <div id="95" onclick="hex(95);"></div>
+                        <div id="96" onclick="hex(96);"></div>
+                        <div id="97" onclick="hex(97);"></div>
+                        <div id="98" onclick="hex(98);"></div>
+                        <div id="99" onclick="hex(99);"></div>
+                        <div id="100" onclick="hex(100);"></div>
+
+
+
+
+                        <div id="101" onclick="hex(101);"></div>
+                        <div id="102" onclick="hex(102);"></div>
+                        <div id="103" onclick="hex(103);"></div>
+                        <div id="104" onclick="hex(104);"></div>
+                        <div id="105" onclick="hex(105);"></div>
+                        <div id="106" onclick="hex(106);"></div>
+                        <div id="107" onclick="hex(107);"></div>
+                        <div id="108" onclick="hex(108);"></div>
+                        <div id="109" onclick="hex(109);"></div>
+                        <div id="110" onclick="hex(110);"></div>
+                        <div id="111" onclick="hex(111);"></div>
+                        <div id="112" onclick="hex(112);"></div>
+                        <div id="113" onclick="hex(113);"></div>
+                        <div id="114" onclick="hex(114);"></div>
+                        <div id="115" onclick="hex(115);"></div>
+                        <div id="116" onclick="hex(116);"></div>
+                        <div id="117" onclick="hex(117);"></div>
+                        <div id="118" onclick="hex(118);"></div>
+                        <div id="119" onclick="hex(119);"></div>
+                        <div id="120" onclick="hex(120);"></div>
+                        <div id="121" onclick="hex(121);"></div>
+                        <div id="122" onclick="hex(122);"></div>
+                        <div id="123" onclick="hex(123);"></div>
+                        <div id="124" onclick="hex(124);"></div>
+                        <div id="125" onclick="hex(125);"></div>
+                        <div id="126" onclick="hex(126);"></div>
+                        <div id="127" onclick="hex(127);"></div>
+                        <div id="128" onclick="hex(128);"></div>
+                        <div id="129" onclick="hex(129);"></div>
+                        <div id="130" onclick="hex(130);"></div>
+                        <div id="131" onclick="hex(131);"></div>
+                        <div id="132" onclick="hex(132);"></div>
+                        <div id="133" onclick="hex(133);"></div>
+                        <div id="134" onclick="hex(134);"></div>
+                        <div id="135" onclick="hex(135);"></div>
+                        <div id="136" onclick="hex(136);"></div>
+                        <div id="137" onclick="hex(137);"></div>
+                        <div id="138" onclick="hex(138);"></div>
+                        <div id="139" onclick="hex(139);"></div>
+                        <div id="140" onclick="hex(140);"></div>
+                        <div id="141" onclick="hex(141);"></div>
+                        <div id="142" onclick="hex(142);"></div>
+                        <div id="143" onclick="hex(143);"></div>
+                        <div id="144" onclick="hex(144);"></div>
+                        <div id="145" onclick="hex(145);"></div>
+                        <div id="146" onclick="hex(146);"></div>
+                        <div id="147" onclick="hex(147);"></div>
+                        <div id="148" onclick="hex(148);"></div>
+                        <div id="149" onclick="hex(149);"></div>
+                        <div id="150" onclick="hex(150);"></div>
+                        <div id="151" onclick="hex(151);"></div>
+                        <div id="152" onclick="hex(152);"></div>
+                        <div id="153" onclick="hex(153);"></div>
+                        <div id="154" onclick="hex(154);"></div>
+                        <div id="155" onclick="hex(155);"></div>
+                        <div id="156" onclick="hex(156);"></div>
+                        <div id="157" onclick="hex(157);"></div>
+                        <div id="158" onclick="hex(158);"></div>
+                        <div id="159" onclick="hex(159);"></div>
+                        <div id="160" onclick="hex(160);"></div>
+                        <div id="161" onclick="hex(161);"></div>
+                        <div id="162" onclick="hex(162);"></div>
+                        <div id="163" onclick="hex(163);"></div>
+                        <div id="164" onclick="hex(164);"></div>
+                        <div id="165" onclick="hex(165);"></div>
+                        <div id="166" onclick="hex(166);"></div>
+                        <div id="167" onclick="hex(167);"></div>
+                        <div id="168" onclick="hex(168);"></div>
+                        <div id="169" onclick="hex(169);"></div>
+                        <div id="170" onclick="hex(170);"></div>
+                        <div id="171" onclick="hex(171);"></div>
+                        <div id="172" onclick="hex(172);"></div>
+                        <div id="173" onclick="hex(173);"></div>
+                        <div id="174" onclick="hex(174);"></div>
+                        <div id="175" onclick="hex(175);"></div>
+                        <div id="176" onclick="hex(176);"></div>
+                        <div id="177" onclick="hex(177);"></div>
+                        <div id="178" onclick="hex(178);"></div>
+                        <div id="179" onclick="hex(179);"></div>
+                        <div id="180" onclick="hex(180);"></div>
+                        <div id="181" onclick="hex(181);"></div>
+                        <div id="182" onclick="hex(182);"></div>
+                        <div id="183" onclick="hex(183);"></div>
+                        <div id="184" onclick="hex(184);"></div>
+                        <div id="185" onclick="hex(185);"></div>
+                        <div id="186" onclick="hex(186);"></div>
+                        <div id="187" onclick="hex(187);"></div>
+                        <div id="188" onclick="hex(188);"></div>
+                        <div id="189" onclick="hex(189);"></div>
+                        <div id="190" onclick="hex(190);"></div>
+                        <div id="191" onclick="hex(191);"></div>
+                        <div id="192" onclick="hex(192);"></div>
+                        <div id="193" onclick="hex(193);"></div>
+                        <div id="194" onclick="hex(194);"></div>
+                        <div id="195" onclick="hex(195);"></div>
+                        <div id="196" onclick="hex(196);"></div>
+                        <div id="197" onclick="hex(197);"></div>
+                        <div id="198" onclick="hex(198);"></div>
+                        <div id="199" onclick="hex(199);"></div>
+
+
+
+
+
+
+
+                    </div>
+                </div>
+
+
+            </div>
+            <div id="popup" class="popup">
+
+                <label id="cross" class="cross">X</label>
+                <p style="font-weight: bold;">Well done</p>
+                <p>You have just found the
+                    <label id="sensor_name" style="color: #ffa048; font-weight: bold;">Poti sensor</label>
+                </p>
+                <div class="outer">
+                    <div id="icon"></div>
+                    <p id="sensor_details">
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="won" class="popup">
+
+        </div>
+        <div id="gameover" class="popup">
+
+        </div>
+    </div>
+
+    <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
+        var pop = document.getElementById("popup");
+        var won = document.getElementById("won");
+        var gameover = document.getElementById("gameover");
+        var sf = document.getElementById("sf");
+        var cl = document.getElementById("cl");
+        var start = document.getElementById("start");
+        var cross = document.getElementById("cross");
+        var popup_is_shown = 0;
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+        var icon = document.getElementById("icon");
+        var sensor_details = document.getElementById("sensor_details");
+        var sensor_name = document.getElementById("sensor_name");
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks the button, open the modal 
+        btn.onclick = function() {
+            modal.style.display = "block";
+        }
+        pop.style.display = "none";
+        gameover.style.display = "none";
+        won.style.display = "none";
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+            modal.style.display = "none";
+            pop.style.display = "none";
+            popup_is_shown = 0;
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+                pop.style.display = "none";
+                popup_is_shown = 0;
+            }
+        }
+    </script>
+    <script src="assets/game.js"></script>
+
+</body>
+
+</html>
