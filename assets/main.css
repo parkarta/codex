@@ -96,6 +96,16 @@ div svg path {
 /* Extra small devices (phones, 600px and down) */
 
 @media only screen and (max-width: 600px) {
+    .main {
+        padding: 20px;
+        display: flex;
+        --s: 55px;
+        /*85pxdefault*/
+        /* size  */
+        --m: -4.5px;
+        /* margin */
+        --f: calc(1.732 * var(--s) + 4 * var(--m) - 1px);
+    }
     .popup {
         background-color: #4c4178;
         border: 5px solid white;
@@ -146,7 +156,7 @@ div svg path {
         font-family: 'Candara';
         font-size: xx-small;
         ;
-        line-height: 29px;
+        line-height: 12px;
         margin-top: -4px;
         padding-left: 10px;
     }
@@ -262,6 +272,16 @@ div svg path {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 
 @media only screen and (min-width: 600px) {
+    .main {
+        padding: 20px;
+        display: flex;
+        --s: 65px;
+        /*85pxdefault*/
+        /* size  */
+        --m: -4.5px;
+        /* margin */
+        --f: calc(1.732 * var(--s) + 4 * var(--m) - 1px);
+    }
     .popup {
         background-color: #4c4178;
         border: 5px solid white;
@@ -269,7 +289,7 @@ div svg path {
         left: 10%;
         top: 30%;
         width: 75%;
-        height: 15%;
+        height: 25%;
     }
     .cross {
         float: right;
@@ -427,6 +447,16 @@ div svg path {
 /* Medium devices (landscape tablets, 768px and up) */
 
 @media only screen and (min-width: 768px) {
+    .main {
+        padding: 20px;
+        display: flex;
+        --s: 65px;
+        /*85pxdefault*/
+        /* size  */
+        --m: -4.5px;
+        /* margin */
+        --f: calc(1.732 * var(--s) + 4 * var(--m) - 1px);
+    }
     .popup {
         background-color: #4c4178;
         border: 5px solid white;
@@ -434,7 +464,7 @@ div svg path {
         left: 10%;
         top: 30%;
         width: 75%;
-        height: 15%;
+        height: 25%;
     }
     .cross {
         float: right;
@@ -592,6 +622,16 @@ div svg path {
 /* Large devices (laptops/desktops, 992px and up) */
 
 @media only screen and (min-width: 992px) {
+    .main {
+        padding: 20px;
+        display: flex;
+        --s: 65px;
+        /*85pxdefault*/
+        /* size  */
+        --m: -4.5px;
+        /* margin */
+        --f: calc(1.732 * var(--s) + 4 * var(--m) - 1px);
+    }
     .popup {
         background-color: #4c4178;
         border: 5px solid white;
@@ -599,7 +639,7 @@ div svg path {
         left: 10%;
         top: 30%;
         width: 75%;
-        height: 23%;
+        height: 40%;
     }
     .cross {
         float: right;
@@ -757,6 +797,16 @@ div svg path {
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 
 @media only screen and (min-width: 1200px) {
+    .main {
+        padding: 20px;
+        display: flex;
+        --s: 75px;
+        /*85pxdefault*/
+        /* size  */
+        --m: -4.5px;
+        /* margin */
+        --f: calc(1.732 * var(--s) + 4 * var(--m) - 1px);
+    }
     .popup {
         background-color: #4c4178;
         border: 5px solid white;
@@ -764,7 +814,7 @@ div svg path {
         left: 20%;
         top: 20%;
         width: 45%;
-        height: 40%;
+        height: 60%;
     }
     .cross {
         float: right;
